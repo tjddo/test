@@ -1,0 +1,104 @@
+<!-- activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="28dp"
+        android:text="선택을 시작하겠습니까?" />
+
+    <CheckBox
+        android:id="@+id/chkAgree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="60dp"
+        android:text="시작함" />
+
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="122dp"
+        android:text="좋아하는 애완동물은?"
+        android:visibility="invisible" />
+
+    <RadioGroup
+        android:id="@+id/Rgroup1"
+        android:layout_width="145dp"
+        android:layout_height="172dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="166dp"
+        android:layout_marginBottom="393dp">
+
+        <RadioButton
+            android:id="@+id/RdoDog"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:visibility="invisible"
+            android:text="강아지" />
+
+        <RadioButton
+            android:id="@+id/RdoCat"
+            android:layout_width="135dp"
+            android:layout_height="47dp"
+            android:visibility="invisible"
+            android:text="고양이" />
+
+        <RadioButton
+            android:id="@+id/RdoRabbit"
+            android:layout_width="107dp"
+            android:layout_height="45dp"
+            android:visibility="invisible"
+            android:text="토끼" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="119dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="264dp"
+        android:layout_marginBottom="294dp"
+        android:text="선택완료"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imgPet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="136dp"
+        android:visibility="invisible"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+</RelativeLayout>
