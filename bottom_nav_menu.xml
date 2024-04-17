@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_animal1"
+        android:title="Animal 1"
+        android:icon="@drawable/round" />
+    <item
+        android:id="@+id/navigation_animal2"
+        android:title="Animal 2"
+        android:icon="@drawable/round" />
+    <item
+        android:id="@+id/navigation_animal3"
+        android:title="Animal 3"
+        android:icon="@drawable/rice" />
+    <item
+        android:id="@+id/navigation_animal4"
+        android:title="Animal 4"
+        android:icon="@drawable/round" />
+</menu>
